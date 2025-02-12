@@ -2,11 +2,11 @@
   "basics": {
     "name": "Arjol Pengu",
     "label": "Senior Software Engineer",
-    "image": "/me_avatar.jpg",
+    "image": "/Profile_Photo.jpg",
     "email": "penguarjol@gmail.com",
     "phone": "+1 518-545-9716",
-    "url": "https://johndoe.dev",
-    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations.\n\nThroughout my career, I've played a key role in designing and leading innovative solutions, from regulatory processing platforms to enterprise auditing systems. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions.\n\nOutside of work, I enjoy exploring new technologies, contributing to open-source projects, and continuously refining my skills in software architecture and cloud computing.",
+    "url": "https://arjolpengu-cv.netlify.app/",
+    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions.",
     "theme": "default",
     "location": {
       "address": "",
@@ -361,13 +361,13 @@
   "projects": [
     {
       "name": "Personal CV Website",
-      "isActive": false,
+      "isActive": true,
       "description": "A personal website to showcase my projects and skills. You're looking at it now!",
       "highlights": [
         "Built with Astro and Tailwind CSS"
       ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
+      "url": "https://arjolpengu-cv.netlify.app/",
+      "github": "https://github.com/penguarjol/Personal-CV-Portfolio"
     },
     {
       "name": "Management System for Protecting Workers Rights (MPWR)",
@@ -396,6 +396,15 @@
         "Spotify, Youtube and Discord api integration.",
         "Custom user commands."
       ]
+    },
+    {
+      "name": "School Course Pricing Engine",
+      "isActive": false,
+      "description": "A full stack application that was responsible for calculating college level prices and fees.",
+      "highlights": [
+        "Built with React.js, Java Springboot, AWS, and SQL."
+      ],
+      "url": null
     }
   ]
 }
