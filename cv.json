@@ -49,7 +49,7 @@
         "Lead in architecting and development of our integration microservice, responsible for communication and data management of third-party services. Developed using Spring Boot, OpenAPI, Hibernate, Liquibase, and Postgres on Google Cloud Platform."
       ],
       "achievements": [
-        "Secured multiple DOL contracts through consistent results, totalling over 70M in revenue in the span on 3 years.",
+        "Secured multiple DOL contracts through consistent results, totalling over 70M in revenue in the span of 3 years.",
         "Successfully designed and deployed a scalable microservice architecture, improving system reliability and reducing downtime across critical services.",
         "Collaborated with stakeholders to design and implement reusable API solutions, reducing custom one-off implementations and increasing development efficiency.",
         "Implemented robust identity management and auditing services, enhancing security and compliance across the platform."
