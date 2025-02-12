@@ -1,48 +1,61 @@
-# Astro Starter Kit: Basics
+## Print-friendly portfolio CV
 
-```sh
-npm create astro@latest -- --template basics
+![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
+
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
+![GitHub stars](https://img.shields.io/github/stars/Smilesharks/dev-portfolio)
+![GitHub issues](https://img.shields.io/github/issues/Smilesharks/dev-portfolio)
+![GitHub forks](https://img.shields.io/github/forks/Smilesharks/dev-portfolio)
+![GitHub PRs](https://img.shields.io/github/issues-pr/Smilesharks/dev-portfolio)
+
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - The next-gen web framework.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
+
+## 🚀 Getting Started
+
+### 1. Use this Repo as an Astro Project Template
+
+- I use [pnpm](https://pnpm.io/installation) as my package manager.
+
+```bash
+# Enable pnpm on MacOS, WSL & Linux:
+corepack enable
+corepack prepare pnpm@latest --activate
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+# Initialize the project
+```bash
+pnpm create astro@latest -- --template Smilesharks/dev-portfolio
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### 2. Add Your Content:
+
+Edit the `cv.json` file to create your own printable Portfolio/CV.
+
+### 3. Launch the Development Server:
+
+```bash
+# Enjoy the results
+pnpm dev
+```
+1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
+
+### 4. Customisable colours:
+Change the data-theme of `cv.json` and choose one of the colour themes defined in theme.css, red, blue, green, cyber and default, with its variants in dark mode, or create your own.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+|     | Command         | Action                                                                       |
+| :-- | :-------------- | :--------------------------------------------------------------------------- |
+| ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.                   |
+| ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
+| ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Based on [**Bartosz Jarocki - Print-friendly, minimalist CV page**](https://github.com/BartoszJarocki/cv) and [**Miguel Ángel Durán - minimalist-portfolio-json**](https://github.com/midudev/minimalist-portfolio-json)

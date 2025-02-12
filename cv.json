@@ -1,0 +1,401 @@
+{
+  "basics": {
+    "name": "Arjol Pengu",
+    "label": "Senior Software Engineer",
+    "image": "/me_avatar.jpg",
+    "email": "penguarjol@gmail.com",
+    "phone": "+1 518-545-9716",
+    "url": "https://johndoe.dev",
+    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations.\n\nThroughout my career, I've played a key role in designing and leading innovative solutions, from regulatory processing platforms to enterprise auditing systems. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions.\n\nOutside of work, I enjoy exploring new technologies, contributing to open-source projects, and continuously refining my skills in software architecture and cloud computing.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "12203",
+      "city": "Albany NY",
+      "countryCode": "US",
+      "region": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Arjol Pengu",
+        "url": "https://www.linkedin.com/in/arjolpengu/"
+      },
+      {
+        "network": "GitHub",
+        "username": "penguarjol",
+        "url": "https://github.com/penguarjol"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "EY",
+      "position": "Senior Software Engineer",
+      "location_type": "Remote",
+      "location": "Troy, New York",
+      "url": "https://www.ey.com/en_us",
+      "startDate": "2024-04-12",
+      "endDate": null,
+      "summary": "Developed and scaled high-volume Java microservices on GCP, integrating third-party services, leading API architecture, collaborating with cross-functional teams, and optimizing platform performance.",
+      "responsibilities": [
+        "Key contributor in developing distributed, high-volume Java microservices using Spring Boot and the Google Cloud Platform, providing a robust and scalable platform enabling all of our client's needs.",
+        "Collaborated with other cross-functional teams, product owners, and designers to identify and resolve key technical challenges.",
+        "Architected, developed and operated Java services in order to integrate with third-party applications such as Microsoft Dynamics to deliver positive client outcomes.",
+        "Worked directly with stakeholders to understand, document, and develop APIs and systems to enable service-to-service integrations, reducing reliance on custom one-off implementations by leveraging RESTful APIs, OData, and Microsoft Dynamics.",
+        "Leader and key contributor in deploying and sustaining distributed high-volume services in production.",
+        "Responsible for scaling multiple different microservices, such as user identity management services and platform auditing services across the platform.",
+        "Collaborated with frontend engineers to develop APIs enabling critical functionality, using GCP Storage, Java, JPA, Liquibase, and Postgres.",
+        "Lead in architecting and development of our integration microservice, responsible for communication and data management of third-party services. Developed using Spring Boot, OpenAPI, Hibernate, Liquibase, and Postgres on Google Cloud Platform."
+      ],
+      "achievements": [
+        "Secured multiple DOL contracts through consistent results, totalling over 70M in revenue in the span on 3 years.",
+        "Successfully designed and deployed a scalable microservice architecture, improving system reliability and reducing downtime across critical services.",
+        "Collaborated with stakeholders to design and implement reusable API solutions, reducing custom one-off implementations and increasing development efficiency.",
+        "Implemented robust identity management and auditing services, enhancing security and compliance across the platform."
+      ],
+      "skills": [
+        "Postgres",
+        "Java",
+        "GitHub",
+        "GCP",
+        "Angular",
+        "Springboot",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Nuvalence (acquired by EY)",
+      "position": "Software Engineer",
+      "location_type": "Remote",
+      "location": "Troy, New York",
+      "url": null,
+      "startDate": "2021-06-21",
+      "endDate": "2024-04-12",
+      "summary": "Designed scalable microservices, led auditing architecture, developed APIs, optimized workflows, and enhanced system performance using Java Spring, Camunda, and cloud technologies.",
+      "responsibilities": [
+        "Designed and led the development of a scalable distributed microservice platform to streamline regulatory paperwork processing across multiple domains, leveraging Java Spring Boot, Gradle, PostgreSQL, JPA, and Camunda.",
+        "Architected and implemented the entire auditing system, providing agents easy access to system activities, increasing user confidence, and enabling efficient compliance tracking.",
+        "Developed and led the orchestration workflow for the license life cycle using Camunda, Java Spring, and OpenAPI, ensuring seamless automation and efficiency.",
+        "Designed and built backend APIs for critical functionalities like license issuance, collaborating closely with frontend developers to establish API contracts.",
+        "Integrated Google Identity and Firebase for user management and leveraged LibreOffice to generate and issue official documents and licenses.",
+        "Engineered robust, extensible application workflows and RESTful APIs using Camunda, Java Spring, Hibernate, and OpenAPI, enhancing scalability and user experience.",
+        "Worked with product owners, engineers, and clients to provide expert guidance on system design, implementation, and high-quality code solutions.",
+        "Maintained living architecture documents to facilitate collaboration, accelerate onboarding, and provide up-to-date system guidance.",
+        "Continuously evaluated and tested system performance and scalability, ensuring optimal functionality across services.",
+        "Developed multiple key POCs and prototypes, boosting client confidence and accelerating the company's ability to scale across multiple clients.",
+        "Built and maintained a high-performance pricing engine using AWS services (API Gateway, AWS Lambda, ECR) with React.js and Java.",
+        "Led infrastructure architecture efforts, managing the full software lifecycle using Jenkins and Terraform.",
+        "Conducted discovery sessions and demos for C-level executives, ensuring alignment with client needs and demonstrating agile development progress.",
+        "Onboarded client teams, provided technical knowledge transfers, and ensured smooth hand-offs post-engagement.",
+        "Offered direct technical guidance and support to clients after project completion to ensure long-term success."
+      ],
+      "achievements": [
+        "Led the development of a scalable microservice platform that streamlined regulatory paperwork processing, significantly improving efficiency and reducing manual effort.",
+        "Designed and implemented a comprehensive auditing system, increasing transparency and compliance while enhancing agent confidence in system activities.",
+        "Developed an automated license lifecycle workflow using Camunda, reducing processing time and ensuring seamless regulatory compliance.",
+        "Optimized system performance and scalability, leading to improved response times and a more robust infrastructure.",
+        "Successfully built and deployed multiple proof-of-concept prototypes, accelerating client adoption and enabling the company to scale across multiple domains.",
+        "Architected a high-performance pricing engine leveraging AWS services, enhancing accuracy and efficiency for client-specific pricing models.",
+        "Facilitated seamless third-party integrations using Google Identity, Firebase, and OpenAPI, enhancing system interoperability and user management.",
+        "Conducted client demos and stakeholder meetings, securing buy-in and ensuring alignment with business goals.",
+        "Provided expert guidance to client teams, leading to smooth knowledge transfers and long-term project success.",
+        "Successfully developed and deployed a production level React web app."
+      ],
+      "skills": [
+        "Java",
+        "React",
+        "SQL",
+        "GitHub",
+        "AWS",
+        "GCP",
+        "Angular",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "3M",
+      "position": "Software Engineer",
+      "location_type": "In Office",
+      "location": "Albany, New York",
+      "url": "https://www.3m.com/",
+      "startDate": "2022-09-01",
+      "endDate": "2021-06-21",
+      "summary": "Developed and optimized a health data platform using AWS, Python, Apache Spark, and CI/CD technologies.",
+      "responsibilities": [
+        "Led development of a centralized health data platform on AWS, leveraging Python and microservices for Big Data processing.",
+        "Utilized distributed technologies like Apache Spark, Hive, Pandas, and AWS Glue to transform large datasets for customer value.",
+        "Designed and implemented RESTful APIs with API Gateway for seamless integration and user-friendly interfaces for customers and engineers.",
+        "Evaluated emerging technologies to enhance platform scalability and meet complex business requirements.",
+        "Collaborated with cross-functional teams to architect infrastructure and manage the full software lifecycle using AWS CI/CD tools.",
+        "Worked closely with stakeholders to understand and implement technical solutions for their business needs."
+      ],
+      "achievements": [
+        "Successfully developed and scaled a health data platform capable of handling high-volume Big Data, enhancing both customer and business user experiences.",
+        "Streamlined data processing workflows by integrating Apache Spark, AWS Glue, and other technologies, significantly improving operational efficiency and data accuracy."
+      ],
+      "skills": [
+        "Python",
+        "React",
+        "SQL",
+        "Git",
+        "AWS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Siena College",
+      "url": "https://www.siena.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2019-05-01",
+      "score": "3.7"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Developer",
+      "date": "2021-04-12",
+      "issuer": "Amazon Web Services Training and Certification",
+      "url": "https://www.credly.com/badges/6ea6f962-9534-464f-9bce-5c6df5360746?source=linked_in_profile"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": [
+        "Object-Oriented",
+        "Backend",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Data Science",
+        "Scripting",
+        "Automation",
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Markup Language"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Styling"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Scripting Language"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Advanced",
+      "keywords": [
+        "Cloud Computing",
+        "Infrastructure",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework"
+      ]
+    },
+    {
+      "name": "React.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "JavaScript",
+        "Server-side"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Scripting"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "Apache Spark",
+      "level": "Intermediate",
+      "keywords": [
+        "Big Data",
+        "Data Processing",
+        "Distributed Computing"
+      ]
+    },
+    {
+      "name": "Apache Hive",
+      "level": "Intermediate",
+      "keywords": [
+        "Big Data",
+        "Data Warehouse",
+        "Query Engine"
+      ]
+    },
+    {
+      "name": "Pandas",
+      "level": "Intermediate",
+      "keywords": [
+        "Data Science",
+        "Data Analysis",
+        "Python Library"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "level": "Intermediate",
+      "keywords": [
+        "Infrastructure as Code",
+        "Cloud Automation",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Intermediate",
+      "keywords": [
+        "Cloud Computing",
+        "Infrastructure",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Spring",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Java Framework",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "name": "Hibernate",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "ORM",
+        "Database Management"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Intermediate",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Relational Database"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Albanian",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "AI",
+        "Blockchain"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal CV Website",
+      "isActive": false,
+      "description": "A personal website to showcase my projects and skills. You're looking at it now!",
+      "highlights": [
+        "Built with Astro and Tailwind CSS"
+      ],
+      "url": "https://johndoe.dev",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Management System for Protecting Workers Rights (MPWR)",
+      "isActive": true,
+      "description": "A web application that services all of NYS license application needs.",
+      "highlights": [
+        "Built with Angular, Java Springboot, GCP, Postgres and so much more.",
+        "Responsive design",
+        "Scalable"
+      ],
+      "url": "https://mpwr-public.labor.ny.gov/en/login"
+    },
+    {
+      "name": "Ticket To Ride",
+      "isActive": false,
+      "description": "A locally running ticket to ride game. With fully custom graphics using javafx.",
+      "highlights": [
+        "Based of the hit board game Ticket-To-Ride."
+      ]
+    },
+    {
+      "name": "Discord Music Bot",
+      "isActive": false,
+      "description": "A locally running discord bot that connects to Youtube and Spotify.",
+      "highlights": [
+        "Spotify, Youtube and Discord api integration.",
+        "Custom user commands."
+      ]
+    }
+  ]
+}
