@@ -6,7 +6,7 @@
     "email": "penguarjol@gmail.com",
     "phone": "+1 518-545-9716",
     "url": "https://arjolpengu-cv.netlify.app/",
-    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions.",
+    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions. Please view my full resume for a more detailed outline of my experience!",
     "theme": "default",
     "location": {
       "address": "",
@@ -39,20 +39,16 @@
       "endDate": null,
       "summary": "Developed and scaled high-volume Java microservices on GCP, integrating third-party services, leading API architecture, collaborating with cross-functional teams, and optimizing platform performance.",
       "responsibilities": [
-        "Key contributor in developing distributed, high-volume Java microservices using Spring Boot and the Google Cloud Platform, providing a robust and scalable platform enabling all of our client's needs.",
-        "Collaborated with other cross-functional teams, product owners, and designers to identify and resolve key technical challenges.",
-        "Architected, developed and operated Java services in order to integrate with third-party applications such as Microsoft Dynamics to deliver positive client outcomes.",
-        "Worked directly with stakeholders to understand, document, and develop APIs and systems to enable service-to-service integrations, reducing reliance on custom one-off implementations by leveraging RESTful APIs, OData, and Microsoft Dynamics.",
-        "Leader and key contributor in deploying and sustaining distributed high-volume services in production.",
-        "Responsible for scaling multiple different microservices, such as user identity management services and platform auditing services across the platform.",
-        "Collaborated with frontend engineers to develop APIs enabling critical functionality, using GCP Storage, Java, JPA, Liquibase, and Postgres.",
-        "Lead in architecting and development of our integration microservice, responsible for communication and data management of third-party services. Developed using Spring Boot, OpenAPI, Hibernate, Liquibase, and Postgres on Google Cloud Platform."
+        "Developed and scaled distributed, high-volume Java microservices using Spring Boot and Google Cloud Platform to support client needs.",
+        "Architected and operated integration services with third-party applications like Microsoft Dynamics, leveraging RESTful APIs and OData.",
+        "Collaborated with cross-functional teams and stakeholders to design, develop, and optimize APIs for service-to-service integrations.",
+        "Led deployment and maintenance of production microservices, ensuring scalability and reliability for user identity management and platform auditing.",
+        "Designed and developed a critical integration microservice, managing communication and data flow between third-party services using modern Java technologies."
       ],
       "achievements": [
         "Secured multiple DOL contracts through consistent results, totalling over 70M in revenue in the span of 3 years.",
-        "Successfully designed and deployed a scalable microservice architecture, improving system reliability and reducing downtime across critical services.",
-        "Collaborated with stakeholders to design and implement reusable API solutions, reducing custom one-off implementations and increasing development efficiency.",
-        "Implemented robust identity management and auditing services, enhancing security and compliance across the platform."
+        "Designed and deployed a scalable microservice architecture, improving system reliability and reducing downtime.",
+        "Developed reusable API solutions and enhanced security, increasing development efficiency and compliance."
       ],
       "skills": [
         "Postgres",
@@ -75,33 +71,16 @@
       "endDate": "2024-04-12",
       "summary": "Designed scalable microservices, led auditing architecture, developed APIs, optimized workflows, and enhanced system performance using Java Spring, Camunda, and cloud technologies.",
       "responsibilities": [
-        "Designed and led the development of a scalable distributed microservice platform to streamline regulatory paperwork processing across multiple domains, leveraging Java Spring Boot, Gradle, PostgreSQL, JPA, and Camunda.",
-        "Architected and implemented the entire auditing system, providing agents easy access to system activities, increasing user confidence, and enabling efficient compliance tracking.",
-        "Developed and led the orchestration workflow for the license life cycle using Camunda, Java Spring, and OpenAPI, ensuring seamless automation and efficiency.",
-        "Designed and built backend APIs for critical functionalities like license issuance, collaborating closely with frontend developers to establish API contracts.",
-        "Integrated Google Identity and Firebase for user management and leveraged LibreOffice to generate and issue official documents and licenses.",
-        "Engineered robust, extensible application workflows and RESTful APIs using Camunda, Java Spring, Hibernate, and OpenAPI, enhancing scalability and user experience.",
-        "Worked with product owners, engineers, and clients to provide expert guidance on system design, implementation, and high-quality code solutions.",
-        "Maintained living architecture documents to facilitate collaboration, accelerate onboarding, and provide up-to-date system guidance.",
-        "Continuously evaluated and tested system performance and scalability, ensuring optimal functionality across services.",
-        "Developed multiple key POCs and prototypes, boosting client confidence and accelerating the company's ability to scale across multiple clients.",
-        "Built and maintained a high-performance pricing engine using AWS services (API Gateway, AWS Lambda, ECR) with React.js and Java.",
-        "Led infrastructure architecture efforts, managing the full software lifecycle using Jenkins and Terraform.",
-        "Conducted discovery sessions and demos for C-level executives, ensuring alignment with client needs and demonstrating agile development progress.",
-        "Onboarded client teams, provided technical knowledge transfers, and ensured smooth hand-offs post-engagement.",
-        "Offered direct technical guidance and support to clients after project completion to ensure long-term success."
+        "Designed and led the development of a scalable distributed microservice platform for regulatory paperwork automation, leveraging Java Spring Boot, PostgreSQL, and Camunda.",
+        "Architected and implemented a comprehensive auditing system, enhancing compliance tracking and user confidence.",
+        "Developed and orchestrated license life cycle workflows using Camunda and OpenAPI, ensuring seamless automation.",
+        "Integrated Google Identity and Firebase for user management and leveraged LibreOffice for automated document generation",
+        "Led infrastructure architecture and DevOps efforts, managing full software lifecycle with Jenkins and Terraform."
       ],
       "achievements": [
         "Led the development of a scalable microservice platform that streamlined regulatory paperwork processing, significantly improving efficiency and reducing manual effort.",
-        "Designed and implemented a comprehensive auditing system, increasing transparency and compliance while enhancing agent confidence in system activities.",
-        "Developed an automated license lifecycle workflow using Camunda, reducing processing time and ensuring seamless regulatory compliance.",
-        "Optimized system performance and scalability, leading to improved response times and a more robust infrastructure.",
-        "Successfully built and deployed multiple proof-of-concept prototypes, accelerating client adoption and enabling the company to scale across multiple domains.",
         "Architected a high-performance pricing engine leveraging AWS services, enhancing accuracy and efficiency for client-specific pricing models.",
-        "Facilitated seamless third-party integrations using Google Identity, Firebase, and OpenAPI, enhancing system interoperability and user management.",
-        "Conducted client demos and stakeholder meetings, securing buy-in and ensuring alignment with business goals.",
-        "Provided expert guidance to client teams, leading to smooth knowledge transfers and long-term project success.",
-        "Successfully developed and deployed a production level React web app."
+        "Developed an automated license lifecycle workflow using Camunda, reducing processing time and ensuring seamless regulatory compliance."
       ],
       "skills": [
         "Java",
