@@ -383,7 +383,7 @@
     {
       "name": "Excelsior College - Pricing Engine",
       "isActive": false,
-      "description": "A full stack application that was responsible for calculating college level prices and fees.",
+      "description": "A full stack application that was responsible for calculating college course prices and fees.",
       "highlights": [
         "Built with React.js, Java Springboot, AWS, and SQL."
       ],
