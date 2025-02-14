@@ -369,15 +369,19 @@
     },
     {
       "name": "Discord Music Bot",
-      "isActive": false,
-      "description": "A locally running discord bot that connects to Youtube and Spotify.",
+      "isActive": true,
+      "description": "A running discord bot that connects to Youtube and Spotify that allows users to listen to music while on discord.",
       "highlights": [
         "Spotify, Youtube and Discord api integration.",
-        "Custom user commands."
-      ]
+        "Custom user commands.",
+        "Hosted via fly.io",
+        "Python codebase"
+      ],
+      "url": "https://discord.com/oauth2/authorize?client_id=1339483717881827328",
+      "github": "https://github.com/penguarjol/Discord-Music-Bot"
     },
     {
-      "name": "School Course Pricing Engine",
+      "name": "Excelsior College - Pricing Engine",
       "isActive": false,
       "description": "A full stack application that was responsible for calculating college level prices and fees.",
       "highlights": [
