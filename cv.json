@@ -68,7 +68,7 @@
           ]
         },
         {
-          "title": "Microservices and API Development",
+          "title": "Management System for Protecting Workers Rights (MPWR)",
           "summary": "Developed and scaled high-volume Java microservices on GCP, integrating third-party services, leading API architecture, collaborating with cross-functional teams, and optimizing platform performance.",
           "responsibilities": [
             "Developed and scaled distributed, high-volume Java microservices using Spring Boot and Google Cloud Platform to support client needs.",
