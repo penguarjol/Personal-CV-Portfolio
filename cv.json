@@ -40,14 +40,14 @@
       "projects": [
         {
           "title": "AI-Powered Financial Platform",
-          "summary": "Led greenfield AI-powered financial platform and scaled high-volume Java microservices on GCP.",
+          "summary": "Led greenfield AI-powered financial platform and scaled high-volume Python microservices on Azure.",
           "responsibilities": [
             "Defined and implemented financial models using S&P500 data for AI-driven financial insights.",
             "Led development of AI-powered solution leveraging agent-to-agent communication, prompt engineering, and response validation.",
             "Collaborated with cross-functional and AI teams to enhance existing AI capabilities (RAG, Direct Query).",
             "Managed engineer workloads to ensure timely stakeholder delivery.",
-            "Developed and scaled distributed Java microservices using Spring Boot and Google Cloud Platform.",
-            "Architected and operated integration services with third-party applications like Microsoft Dynamics."
+            "Developed and scaled distributed Python microservices using FastApi and Microsoft Azure.",
+            "Architected and operated integration services with third-party applications."
           ],
           "achievements": [
             "Architected greenfield AI financial platform improving stakeholder financial insights through advanced AI modeling.",
@@ -57,13 +57,11 @@
           "skills": [
             "Python",
             "FastAPI",
-            "Java",
-            "Spring Boot",
             "AI/ML",
             "Prompt Engineering",
             "RAG",
             "Agent-Based Systems",
-            "GCP",
+            "Azure",
             "Microservices"
           ]
         },
