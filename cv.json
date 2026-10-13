@@ -225,103 +225,152 @@
     {
       "name": "Python",
       "level": "Advanced",
-      "keywords": [
-        "FastAPI",
-        "LangGraph",
-        "LangChain",
-        "Pydantic",
-        "Backend"
-      ]
-    },
-    {
-      "name": "AI/ML Systems",
-      "level": "Advanced",
-      "keywords": [
-        "RAG Pipelines",
-        "Agentic AI",
-        "LLM Orchestration",
-        "Prompt Engineering",
-        "AI Safety"
-      ]
-    },
-    {
-      "name": "AI Evaluation",
-      "level": "Advanced",
-      "keywords": [
-        "Red Teaming",
-        "Evaluation Frameworks",
-        "Langfuse",
-        "Promptfoo",
-        "Observability"
-      ]
-    },
-    {
-      "name": "AWS",
-      "level": "Advanced",
-      "keywords": [
-        "ECS",
-        "EKS",
-        "SageMaker",
-        "S3",
-        "CloudFront"
-      ]
+      "keywords": ["FastAPI", "Pydantic", "SQLModel", "Backend"]
     },
     {
       "name": "Java",
       "level": "Advanced",
-      "keywords": [
-        "Spring Boot",
-        "Microservices",
-        "Enterprise Applications"
-      ]
+      "keywords": ["Spring Boot", "Microservices", "Enterprise"]
     },
     {
-      "name": "Kubernetes",
+      "name": "TypeScript",
       "level": "Intermediate",
-      "keywords": [
-        "Helm",
-        "ArgoCD",
-        "OpenShift",
-        "CI/CD"
-      ]
+      "keywords": ["Frontend", "Backend", "Full Stack"]
+    },
+    {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": ["Tauri", "Systems Programming"]
+    },
+    {
+      "name": "LangGraph / LangChain",
+      "level": "Advanced",
+      "keywords": ["Agentic AI", "LLM Orchestration", "StateGraph"]
+    },
+    {
+      "name": "RAG Pipelines",
+      "level": "Advanced",
+      "keywords": ["Retrieval-Augmented Generation", "Hybrid Search", "Quality Gating"]
+    },
+    {
+      "name": "Prompt Engineering",
+      "level": "Advanced",
+      "keywords": ["Skills-Based Architecture", "YAML-Driven", "Few-Shot"]
+    },
+    {
+      "name": "AI Evaluation & Red Teaming",
+      "level": "Advanced",
+      "keywords": ["Promptfoo", "Adversarial Testing", "Regression Suites"]
+    },
+    {
+      "name": "AI Safety & Guardrails",
+      "level": "Advanced",
+      "keywords": ["PHI Detection", "Compliance", "Regulated AI"]
+    },
+    {
+      "name": "pgvector / Vector Databases",
+      "level": "Advanced",
+      "keywords": ["Embeddings", "Semantic Search", "Cosine Similarity"]
     },
     {
       "name": "PostgreSQL",
       "level": "Advanced",
-      "keywords": [
-        "pgvector",
-        "Vector Databases",
-        "Alembic",
-        "Database Design"
-      ]
+      "keywords": ["Alembic", "SQLModel", "Database Design"]
     },
     {
-      "name": "Terraform",
-      "level": "Intermediate",
-      "keywords": [
-        "Infrastructure as Code",
-        "Cloud Automation",
-        "DevOps"
-      ]
+      "name": "FastAPI",
+      "level": "Advanced",
+      "keywords": ["REST APIs", "SSE Streaming", "Async"]
     },
     {
-      "name": "React / TypeScript",
+      "name": "React",
       "level": "Intermediate",
-      "keywords": [
-        "Frontend",
-        "CopilotKit",
-        "Tailwind",
-        "Playwright"
-      ]
+      "keywords": ["React 19", "CopilotKit", "Zustand", "Tailwind"]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": ["Frontend", "Enterprise Applications"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["CopilotKit Runtime", "Express"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Advanced",
+      "keywords": ["Java", "Microservices", "REST APIs"]
+    },
+    {
+      "name": "AWS",
+      "level": "Advanced",
+      "keywords": ["ECS", "EKS", "SageMaker", "S3", "CloudFront", "Glue"]
+    },
+    {
+      "name": "Azure",
+      "level": "Intermediate",
+      "keywords": ["Azure OpenAI", "Foundry", "Cloud Services"]
     },
     {
       "name": "Google Cloud",
       "level": "Intermediate",
-      "keywords": [
-        "Cloud Computing",
-        "Infrastructure",
-        "Deployment"
-      ]
+      "keywords": ["GCP", "Firebase", "Cloud Run"]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermediate",
+      "keywords": ["Helm", "ArgoCD", "OpenShift", "EKS"]
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "keywords": ["Containers", "Compose", "Portainer"]
+    },
+    {
+      "name": "Terraform",
+      "level": "Intermediate",
+      "keywords": ["Infrastructure as Code", "Cloud Automation"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Advanced",
+      "keywords": ["GitHub Actions", "Jenkins", "Automated Testing"]
+    },
+    {
+      "name": "Langfuse",
+      "level": "Advanced",
+      "keywords": ["LLM Observability", "Tracing", "Scoring"]
+    },
+    {
+      "name": "Apollo GraphQL",
+      "level": "Intermediate",
+      "keywords": ["Cache Persistence", "Subscriptions"]
+    },
+    {
+      "name": "Stripe",
+      "level": "Intermediate",
+      "keywords": ["Subscriptions", "Customer Portal", "Billing"]
+    },
+    {
+      "name": "Apache Spark",
+      "level": "Intermediate",
+      "keywords": ["Big Data", "Distributed Computing"]
+    },
+    {
+      "name": "Linux / Self-Hosting",
+      "level": "Intermediate",
+      "keywords": ["Nginx", "Caddy", "Tailscale", "Cockpit"]
+    },
+    {
+      "name": "Agile / Scrum",
+      "level": "Advanced",
+      "keywords": ["Sprint Planning", "Jira", "Cross-Functional Delivery"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["GitHub", "Branch Strategy", "Code Review"]
     }
   ],
   "languages": [
