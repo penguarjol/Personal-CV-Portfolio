@@ -346,11 +346,49 @@
   ],
   "projects": [
     {
+      "name": "Home Server Infrastructure",
+      "isActive": true,
+      "description": "Self-hosted home server running Docker containers managed through Portainer, with Nginx Proxy Manager for routing, Pterodactyl Panel for game server management, Homarr as a dashboard, Uptime Kuma for monitoring, and Cockpit for system administration. Includes a unified Command Center with Caddy reverse proxy.",
+      "highlights": [
+        "Docker, Portainer, Nginx Proxy Manager, Pterodactyl, Uptime Kuma, Cockpit",
+        "Self-hosted Minecraft server with Tailscale networking",
+        "Homarr dashboard and centralized monitoring",
+        "Caddy-based Command Center with unified auth"
+      ]
+    },
+    {
+      "name": "GamePilot",
+      "isActive": true,
+      "description": "Intelligent Minecraft performance optimization desktop app for Windows. Discovers instances, analyzes modpacks, detects hardware bottlenecks, recommends safe optimizations, and tracks gaming sessions.",
+      "highlights": [
+        "Built with Tauri 2 (Rust backend + React 19 + TypeScript frontend)",
+        "Rules-based JVM tuning and mod analysis",
+        "SQLite persistence, NSIS installer",
+        "Static landing page on GitHub Pages"
+      ],
+      "url": "https://penguarjol.github.io/GamePilot/",
+      "github": "https://github.com/penguarjol/GamePilot"
+    },
+    {
+      "name": "Discord Music Bot",
+      "isActive": true,
+      "description": "A Discord bot integrating YouTube, Spotify, and SoundCloud for music playback with slash commands, playlists, lyrics, and sound effects.",
+      "highlights": [
+        "Python + Lavalink audio server",
+        "Spotify, YouTube, SoundCloud, Twitch integration",
+        "Custom slash commands, playlist support, multiple languages",
+        "Deployed on fly.io"
+      ],
+      "url": "https://discord.com/oauth2/authorize?client_id=1339483717881827328",
+      "github": "https://github.com/penguarjol/Discord-Music-Bot"
+    },
+    {
       "name": "Personal CV Website",
       "isActive": true,
-      "description": "A personal website to showcase my projects and skills. You're looking at it now!",
+      "description": "This portfolio site, driven by a single JSON Resume file. Auto-deploys on push.",
       "highlights": [
-        "Built with Astro and Tailwind CSS"
+        "Built with Astro and Tailwind CSS",
+        "JSON Resume schema, auto-deploy via Netlify"
       ],
       "url": "https://arjolpengu-cv.netlify.app/",
       "github": "https://github.com/penguarjol/Personal-CV-Portfolio"
@@ -358,41 +396,29 @@
     {
       "name": "Management System for Protecting Workers Rights (MPWR)",
       "isActive": true,
-      "description": "A web application that services all of NYS license application needs.",
+      "description": "A production web application servicing all of NYS license application needs.",
       "highlights": [
-        "Built with Angular, Java Springboot, GCP, Postgres and so much more.",
-        "Responsive design",
-        "Scalable"
+        "Built with Angular, Java Spring Boot, GCP, Postgres",
+        "Production system serving NYS Department of Labor"
       ],
       "url": "https://mpwr-public.labor.ny.gov/en/login"
     },
     {
-      "name": "Ticket To Ride",
-      "isActive": false,
-      "description": "A locally running ticket to ride game. With fully custom graphics using javafx.",
-      "highlights": [
-        "Based of the hit board game Ticket-To-Ride."
-      ]
-    },
-    {
-      "name": "Discord Music Bot",
+      "name": "Springboot Maven Starter",
       "isActive": true,
-      "description": "A running discord bot that connects to Youtube and Spotify that allows users to listen to music while on discord.",
+      "description": "An opinionated starter template for Java Spring Boot projects with Maven and Docker preconfigured.",
       "highlights": [
-        "Spotify, Youtube and Discord api integration.",
-        "Custom user commands.",
-        "Hosted via fly.io",
-        "Python codebase"
+        "Java Spring Boot, Maven, Docker",
+        "Ready-to-clone project scaffold"
       ],
-      "url": "https://discord.com/oauth2/authorize?client_id=1339483717881827328",
-      "github": "https://github.com/penguarjol/Discord-Music-Bot"
+      "github": "https://github.com/penguarjol/SpringbootMaven_Starter"
     },
     {
       "name": "Excelsior College - Pricing Engine",
       "isActive": false,
-      "description": "A full stack application that was responsible for calculating college course prices and fees.",
+      "description": "A full stack application responsible for calculating college course prices and fees.",
       "highlights": [
-        "Built with React.js, Java Springboot, AWS, and SQL."
+        "Built with React.js, Java Spring Boot, AWS, and SQL"
       ],
       "url": null
     }
