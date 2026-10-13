@@ -415,6 +415,7 @@
         "Performance: Apollo cache persistence, service worker precaching, chapter preloading",
         "Self-hosted on home server with Suwayomi-Server backend (Kotlin)"
       ],
+      "url": "https://nexusreads.vercel.app",
       "github": "https://github.com/penguarjol/Suwayomi-WebUI"
     },
     {
