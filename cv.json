@@ -346,9 +346,32 @@
   ],
   "projects": [
     {
+      "name": "Isabella — AI Pharmaceutical Sales Platform",
+      "isActive": true,
+      "description": "Production agentic AI platform built at PwC for a Fortune 50 pharmaceutical client. 24-node LangGraph pipeline with hybrid RAG retrieval, 14 compliance guardrails, 33 configurable skills, real-time voice and text conversations with healthcare professionals.",
+      "highlights": [
+        "Python, LangGraph, FastAPI, pgvector, React, TypeScript, CopilotKit",
+        "Deployed to AWS ECS and client Kubernetes (Helm, ArgoCD)",
+        "Multi-suite evaluation: 214 functional tests, 760 adversarial red team probes",
+        "100% regulatory safety, 36% to 88% response quality improvement"
+      ]
+    },
+    {
+      "name": "Nexus Reader (Suwayomi Fork)",
+      "isActive": true,
+      "description": "Heavily customized fork of the Suwayomi manga/e-reader platform. Added social features, creator tooling, subscription billing, ad server, performance caching, and a PWA-optimized reading experience.",
+      "highlights": [
+        "TypeScript, React, Apollo GraphQL, Stripe, Vite PWA",
+        "20+ custom commits: social (following, leaderboards, reactions), creator tools (analytics, scheduling, payouts), billing (Stripe subscriptions, tipping)",
+        "Performance: Apollo cache persistence, service worker precaching, chapter preloading",
+        "Self-hosted on home server with Suwayomi-Server backend (Kotlin)"
+      ],
+      "github": "https://github.com/penguarjol/Suwayomi-WebUI"
+    },
+    {
       "name": "Home Server Infrastructure",
       "isActive": true,
-      "description": "Self-hosted home server running Docker containers managed through Portainer, with Nginx Proxy Manager for routing, Pterodactyl Panel for game server management, Homarr as a dashboard, Uptime Kuma for monitoring, and Cockpit for system administration. Includes a unified Command Center with Caddy reverse proxy.",
+      "description": "Self-hosted home server running Docker containers managed through Portainer, with Nginx Proxy Manager for routing, Pterodactyl Panel for game server management, Homarr as a dashboard, Uptime Kuma for monitoring, and Cockpit for system administration.",
       "highlights": [
         "Docker, Portainer, Nginx Proxy Manager, Pterodactyl, Uptime Kuma, Cockpit",
         "Self-hosted Minecraft server with Tailscale networking",
@@ -402,16 +425,6 @@
         "Production system serving NYS Department of Labor"
       ],
       "url": "https://mpwr-public.labor.ny.gov/en/login"
-    },
-    {
-      "name": "Springboot Maven Starter",
-      "isActive": true,
-      "description": "An opinionated starter template for Java Spring Boot projects with Maven and Docker preconfigured.",
-      "highlights": [
-        "Java Spring Boot, Maven, Docker",
-        "Ready-to-clone project scaffold"
-      ],
-      "github": "https://github.com/penguarjol/SpringbootMaven_Starter"
     },
     {
       "name": "Excelsior College - Pricing Engine",
