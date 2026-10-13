@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Arjol Pengu",
-    "label": "Senior Software Engineer",
+    "label": "GenAI Manager | AI Solution Architect",
     "image": "/Profile_Photo.jpg",
     "email": "penguarjol@gmail.com",
     "phone": "+1 518-545-9716",
@@ -13,7 +13,7 @@
       "countryCode": "US",
       "region": "New York"
     },
-    "summary": "Hi, I'm Arjol Pengu, a Senior Software Engineer with a passion for building scalable, high-performance systems. With extensive experience in Java, Python, and cloud technologies like AWS and Google Cloud Platform, I specialize in developing distributed microservices, backend architectures, and seamless third-party integrations. My expertise spans microservices, API development, cloud-native architectures, and agile software development. I thrive in collaborative environments, working closely with product teams, stakeholders, and engineers to deliver impactful solutions. Please view my full resume for a more detailed outline of my experience!",
+    "summary": "GenAI Manager at PwC leading architecture, product strategy, and engineering delivery of a production AI platform for a Fortune 50 pharmaceutical client. Shipped an agentic LangGraph pipeline with hybrid RAG retrieval and 14 compliance guardrails to the client's Kubernetes environment, improving response quality from 36% to 88% while maintaining 100% regulatory safety. Prior to AI leadership, spent 5+ years building distributed Java and Python platforms across EY, 3M, and government contracts totaling $70M+ in contract value.",
     "theme": "default",
     "profiles": [
       {
@@ -30,13 +30,59 @@
   },
   "work": [
     {
+      "name": "PwC",
+      "position": "GenAI Manager",
+      "location_type": "Remote",
+      "location": "New York",
+      "url": "https://www.pwc.com/",
+      "startDate": "2026-01-26",
+      "endDate": null,
+      "projects": [
+        {
+          "title": "AI-Powered Pharmaceutical Sales Platform (Fortune 50 Client)",
+          "summary": "Led architecture, product strategy, and engineering delivery of a production AI sales platform for a Fortune 50 pharmaceutical client. Owned the full lifecycle from system design through deployment across two cloud environments, managing a cross-functional team of engineers, data scientists, and QA.",
+          "responsibilities": [
+            "Architected a 24-node LangGraph agentic pipeline processing real-time healthcare conversations with deterministic compliance enforcement, deployed to the client's production Kubernetes cluster.",
+            "Designed and shipped a hybrid RAG retrieval system (pgvector + sparse search + quality gating) that improved response accuracy from 36% to 88% while maintaining 100% regulatory safety across 30 compliance probes.",
+            "Led a cross-functional engineering team across 3 parallel workstreams (guardrails, content, evaluation), creating sprint plans with day-level task assignments and dependency tracking.",
+            "Built a multi-suite AI evaluation framework covering 214 functional test cases, a 760-probe adversarial red team corpus, and behavioral tone scoring, integrated with Langfuse for observability and trend reporting.",
+            "Designed 14 AI safety guardrails (PHI detection, adverse event screening, off-label blocking, prompt injection defense) using a layered architecture: deterministic rules as the fast path, LLM-based classification for the long tail.",
+            "Delivered a 2-week remediation sprint closing 10 legal review findings (3 critical) from an external law firm assessment, coordinating 3 parallel workstreams with day-by-day engineering assignments.",
+            "Owned the platform migration from AWS ECS to the client's Kubernetes environment, creating Helm charts, CI/CD pipelines, and ensuring data parity across both production environments.",
+            "Ran 10+ live client demos and authored scenario-based talk tracks, translating technical architecture decisions into product feedback sessions with the client's product and medical-legal teams.",
+            "Authored a scalability analysis identifying 7 bottlenecks blocking 1,000+ concurrent users, modeling token throughput requirements from production traces and delivering infrastructure sizing recommendations.",
+            "Defined the product evaluation framework adopted by the client's product, engineering, and regulatory teams to measure AI quality across safety, accuracy, fidelity, and conversational tone."
+          ],
+          "achievements": [
+            "Shipped a production agentic AI platform: LangGraph pipeline, hybrid RAG retrieval, semantic caching, 33 configurable skills, and 14 compliance guardrails, serving real users in a regulated pharmaceutical environment.",
+            "Improved response quality from 36% to 88% on the functional evaluation suite while holding regulatory safety at 100% across all iterations.",
+            "Built and deployed a RAG ingestion pipeline processing 7 source documents into 288 provenance-tracked chunks with automated extraction, metadata tagging, and content verification.",
+            "Led a cross-functional remediation sprint that closed 3 critical regulatory findings within 2 weeks, preventing production-blocking issues before the client's launch timeline.",
+            "Authored 37 wiki pages and 64+ architecture documents, establishing the engineering team's canonical reference for system design, onboarding, and client-facing technical presentations."
+          ],
+          "skills": [
+            "Python",
+            "LangGraph",
+            "FastAPI",
+            "pgvector",
+            "React",
+            "TypeScript",
+            "AWS",
+            "Kubernetes",
+            "Terraform",
+            "PostgreSQL"
+          ]
+        }
+      ]
+    },
+    {
       "name": "EY",
       "position": "Senior Software Engineer",
       "location_type": "Remote",
       "location": "Troy, New York",
       "url": "https://www.ey.com/en_us",
       "startDate": "2024-04-12",
-      "endDate": null,
+      "endDate": "2026-01-26",
       "projects": [
         {
           "title": "AI-Powered Financial Platform",
@@ -177,131 +223,76 @@
   ],
   "skills": [
     {
-      "name": "Java",
-      "level": "Advanced",
-      "keywords": [
-        "Object-Oriented",
-        "Backend",
-        "Enterprise Applications"
-      ]
-    },
-    {
       "name": "Python",
       "level": "Advanced",
       "keywords": [
-        "Data Science",
-        "Scripting",
-        "Automation",
+        "FastAPI",
+        "LangGraph",
+        "LangChain",
+        "Pydantic",
         "Backend"
       ]
     },
     {
-      "name": "HTML",
-      "level": "Intermediate",
+      "name": "AI/ML Systems",
+      "level": "Advanced",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Markup Language"
+        "RAG Pipelines",
+        "Agentic AI",
+        "LLM Orchestration",
+        "Prompt Engineering",
+        "AI Safety"
       ]
     },
     {
-      "name": "CSS",
-      "level": "Intermediate",
+      "name": "AI Evaluation",
+      "level": "Advanced",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Styling"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Scripting Language"
+        "Red Teaming",
+        "Evaluation Frameworks",
+        "Langfuse",
+        "Promptfoo",
+        "Observability"
       ]
     },
     {
       "name": "AWS",
       "level": "Advanced",
       "keywords": [
-        "Cloud Computing",
-        "Infrastructure",
-        "Deployment"
+        "ECS",
+        "EKS",
+        "SageMaker",
+        "S3",
+        "CloudFront"
       ]
     },
     {
-      "name": "Angular",
-      "level": "Intermediate",
+      "name": "Java",
+      "level": "Advanced",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Framework"
+        "Spring Boot",
+        "Microservices",
+        "Enterprise Applications"
       ]
     },
     {
-      "name": "React.js",
+      "name": "Kubernetes",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "Helm",
+        "ArgoCD",
+        "OpenShift",
+        "CI/CD"
       ]
     },
     {
-      "name": "Node.js",
-      "level": "Intermediate",
+      "name": "PostgreSQL",
+      "level": "Advanced",
       "keywords": [
-        "Backend",
-        "JavaScript",
-        "Server-side"
-      ]
-    },
-    {
-      "name": "PHP",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Scripting"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Database",
-        "SQL",
-        "Relational Database"
-      ]
-    },
-    {
-      "name": "Apache Spark",
-      "level": "Intermediate",
-      "keywords": [
-        "Big Data",
-        "Data Processing",
-        "Distributed Computing"
-      ]
-    },
-    {
-      "name": "Apache Hive",
-      "level": "Intermediate",
-      "keywords": [
-        "Big Data",
-        "Data Warehouse",
-        "Query Engine"
-      ]
-    },
-    {
-      "name": "Pandas",
-      "level": "Intermediate",
-      "keywords": [
-        "Data Science",
-        "Data Analysis",
-        "Python Library"
+        "pgvector",
+        "Vector Databases",
+        "Alembic",
+        "Database Design"
       ]
     },
     {
@@ -314,39 +305,22 @@
       ]
     },
     {
+      "name": "React / TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Frontend",
+        "CopilotKit",
+        "Tailwind",
+        "Playwright"
+      ]
+    },
+    {
       "name": "Google Cloud",
       "level": "Intermediate",
       "keywords": [
         "Cloud Computing",
         "Infrastructure",
         "Deployment"
-      ]
-    },
-    {
-      "name": "Spring",
-      "level": "Intermediate",
-      "keywords": [
-        "Backend",
-        "Java Framework",
-        "Enterprise Applications"
-      ]
-    },
-    {
-      "name": "Hibernate",
-      "level": "Intermediate",
-      "keywords": [
-        "Java",
-        "ORM",
-        "Database Management"
-      ]
-    },
-    {
-      "name": "SQL Server",
-      "level": "Intermediate",
-      "keywords": [
-        "Database",
-        "SQL",
-        "Relational Database"
       ]
     }
   ],
@@ -364,8 +338,9 @@
     {
       "name": "Technology",
       "keywords": [
-        "AI",
-        "Blockchain"
+        "Generative AI",
+        "Agentic Systems",
+        "Regulated AI"
       ]
     }
   ],
